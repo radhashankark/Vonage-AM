@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+	android:id="@+id/callfromvonage" 
+	android:orientation="vertical"
+	android:layout_width="fill_parent" 
+	android:layout_height="fill_parent"
+	android:gravity="center_vertical" >
+
+	<LinearLayout
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content"
+		android:orientation="vertical"
+		android:gravity="center_vertical" >
+		
+		<TextView 
+			android:layout_width="fill_parent" 
+			android:layout_height="wrap_content"
+			android:padding="5sp"
+			android:textSize="18sp"
+			android:text="@string/choosenumber" >
+		</TextView>
+		
+		<EditText
+			android:id="@+id/callfromfwdnumber"
+			android:layout_width="fill_parent" 
+			android:layout_height="wrap_content" 
+			android:inputType="phone" >
+		</EditText>
+		
+		<TextView 
+			android:layout_width="fill_parent" 
+			android:layout_height="wrap_content"
+			android:padding="5sp"
+			android:textSize="15sp"
+			android:text="@string/leaveblank" >
+		</TextView>
+	
+	</LinearLayout>
+	
+	<LinearLayout
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:gravity="center" >
+		
+		<Button
+			android:id="@+id/callfromvonbtn"
+			android:layout_width="fill_parent" 
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:text="@string/callfromvon" >
+		</Button>
+		
+		<Button
+			android:id="@+id/callfromvoncontactsbtn"
+			android:layout_width="fill_parent" 
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:text="@string/callfromvoncontacts" >
+		</Button>
+		
+	</LinearLayout>
+	
+	<LinearLayout
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content"
+		android:orientation="vertical"
+		android:gravity="center" >
+		
+		<CheckBox
+			android:id="@+id/revertbackcfckbx"
+			android:layout_width="fill_parent" 
+			android:layout_height="wrap_content"
+			android:text="@string/revertbackcf" >
+		</CheckBox>
+		
+		<CheckBox
+			android:id="@+id/delaycallckbx"
+			android:layout_width="fill_parent" 
+			android:layout_height="wrap_content"
+			android:text="@string/delaycall" >
+		</CheckBox>
+		
+	</LinearLayout>
+	
+</LinearLayout>

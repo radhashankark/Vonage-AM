@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, VonageAM!</string>
+    <string name="app_name">Vonage AM</string>
+    <string name="app_title">Vonage AM Options</string>
+
+<!-- Version Info Strings -->
+	<string name="versionCode">13</string>
+	<string name="versionName">0.9.2</string>
+
+<!-- Title Strings -->
+	<string name="options_title">Vonage AM - Options</string>
+	<string name="callfwd_title">Set Call Forwarding</string>
+	<string name="callfromvon_title">Call From Vonage</string>
+	<string name="setnan_title">Set Network Availability Number</string>
+	<string name="placecall_title">International outgoing call</string>
+	<string name="voicemail">Your Voicemail</string>
+	<string name="voicemaildetails_title">Voicemails</string>
+	<string name="refresh_menu">Refresh settings</string>
+	<string name="general_settings_menu">General Settings</string>
+	<string name="quit">Logout and Exit</string>
+
+<!-- Login Screen Strings -->
+	<string name="vonageusername"></string>
+	<string name="vonagepassword"></string>
+	<string name="vonagelogin">Login</string>
+	<string name="vonagecancel">Cancel</string>
+	<string name="rememberme">Remember password</string>
+	<string name="autologin">Log in automatically</string>
+	<string name="usernamelabel">User Name</string>
+	<string name="passwordlabel">Password</string>
+	<string name="description">No default account found. Set up a default account</string>
+	
+<!--  Options Menu Strings -->
+	<string name="accountinfo">Account Information</string>
+	<string name="bwsaver">Bandwidth Saver</string>
+	<string name="callforwarding">Call Forwarding</string>
+	<string name="callfromvonage">Call From Vonage</string>
+	<string name="callhistory">Call History</string>
+	<string name="callerid">Caller ID Setting</string>
+	<string name="networkavailability">Network Availability</string>
+	<string name="intlcalling">International Calling</string>
+	<string name="donotdisturb">Do Not Disturb</string>
+	<string name="deletecreds">Delete Credentials</string>
+	<string name="saveallcreds">Save all Credentials</string>
+	<string name="autologincred">Choose autologin user</string>
+	<string name="adduser">Save a user</string>
+	<string name="switchaccount">Switch Account</string>
+	<string name="logout">Log Out</string>	
+	
+<!-- Preferences Summary Strings -->
+	<string name="bwsaver_summary">Configure Bandwidth usage</string>
+	<string name="deletecreds_summary">Delete all stored credentials</string>
+	<string name="callfromvon_summary">Call any number by routing it through Vonage</string>
+	<string name="logout_summary">Log out of Vonage</string>
+	<string name="calleridenabled">Caller ID is enabled</string>
+	<string name="calleriddisabled">Caller ID currently disabled</string>
+	<string name="intlcallingenabled">International calling enabled</string>
+	<string name="intlcallingdisabled">International calling disabled</string>
+	<string name="callfwddisabled">Currently disabled</string>
+	<string name="nanenabled">Network Availability Number disabled</string>
+	<string name="autointlcallsenabled">International calls will go through Vonage</string>
+	<string name="autointlcallsdisabled">International calls will be dialed directly</string>
+	<string name="calldelayenabled">Calls will be placed with a 5 second delay</string>
+	<string name="calldelaydisabled">Calls will be placed instantly</string>
+	<string name="donotdisturbenabled">Currently Enabled</string>
+	<string name="donotdisturbdisabled">Currently Disabled</string>
+	<string name="revertsettingsenabled">Previous Call Forward settings will be restored after the call</string>
+	<string name="revertsettingsdisabled">Call Forwarding will be disabled after the call</string>
+	<string name="autologinuserdisabled">Will not auto login. Tap to choose saved user to log in automatically</string>
+	<string name="autologinuserunknown">No preference saved, or cannot determine this preference</string>
+	<string name="addusersummary">Tap to login and save username and password</string>
+	<string name="switchaccountsummary">Log out and log in as a different user</string>
+	<string name="deletecredssummary">Tap to delete all saved credentials</string>
+	
+<!-- Call Forward Selection Dialog Strings -->
+	<string name="forwardbutton">Save Changes</string>
+	<string name="cancelforward">Cancel Forwarding</string>
+
+<!-- Call Forward Strings -->
+	<string name="setcallfwd">Set Forward</string>
+	<string name="callfwdcontacts">Contacts</string>
+
+<!-- Set NAN Strings -->
+	<string name="setnan">Set NaN</string>
+	<string name="setnancontacts">Contacts</string>
+
+<!-- Call Number Strings -->
+	<string name="callfromvon">Call Number</string>
+	<string name="callfromvoncontacts">Contacts</string>
+
+<!-- General Strings -->
+	<string name="choosenumber">Enter or choose a phone number :</string>
+	<string name="leaveblank">Leave blank to disable</string>
+	<string name="delaycall">Delay before call</string>
+	<string name="revertbackcf">Revert settings</string>
+	<string name="autointlcalls">International calls</string>
+	<string name="switchaccounts">Use another account</string>
+	<string name="otherlogin">Use Saved Login Details</string>
+	<string name="menuheading">Main Menu</string>
+
+<!-- Preferences Categories -->
+	<string name="calls_category">Calls</string>
+	
+<!-- Used in BW Saver Entries -->
+    <string-array name="bwsaver_preference">
+        <item>Normal (30 Kbps)</item>
+        <item>High (50 Kbps)</item>
+        <item>Highest (90 Kbps)</item>
+    </string-array>
+    
+<!-- Used in BW Saver Entry Values -->
+    <string-array name="bwsaver_values_preference">
+        <item>30</item>
+        <item>50</item>
+        <item>90</item>
+    </string-array>	
+
+<!-- Used in Autologin Entries -->
+    <string-array name="autologin_entries">
+       
+    </string-array>
+    
+<!-- Used in Autologin Values -->
+    <string-array name="autologin_values">
+       
+    </string-array>	
+    
+</resources>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="?android:attr/listPreferredItemHeight"
+    android:orientation="horizontal"
+    android:padding="6dip">
+
+    <RelativeLayout
+    	android:id="@+id/voicemaildetails1"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:paddingLeft="3sp">
+
+        <TextView
+            android:id="@+id/voicemailfrom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:textSize="22sp"
+            android:padding="1dip"
+        />
+        
+        <TextView
+        	android:id="@+id/voicemailwhen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/voicemailfrom"
+            android:layout_weight="1" 
+            android:singleLine="true"
+            android:textSize="15sp"
+            android:padding="1dip"
+        />
+
+    </RelativeLayout>
+    
+    <RelativeLayout
+    	android:id="@+id/voicemaildetails2"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:paddingLeft="3sp">
+        
+        <ImageView
+        	android:id="@+id/voicemailplay"
+        	android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+        	android:src="@android:drawable/ic_media_play"
+        	android:layout_weight="1"
+       	/>
+        
+        <TextView
+        	android:id="@+id/voicemaillength"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/voicemailplay"
+            android:layout_weight="1"
+            android:text="00:13"
+        />
+        
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:key="vonage_options">
+
+	<PreferenceCategory
+			android:key="calls"
+            android:title="@string/calls_category" >
+
+        <Preference
+        	android:key="setcallfwd_pref"
+        	android:title="@string/callfwd_title" />
+
+        <Preference
+        	android:key="callfromvonage_pref"
+        	android:title="@string/callfromvon_title"
+        	android:summary="@string/callfromvon_summary" />
+
+        <Preference
+        	android:key="networkavailability_pref"
+        	android:title="@string/networkavailability" />
+        
+    </PreferenceCategory>
+
+    <PreferenceCategory
+    	android:title="Features" >
+		
+		<Preference
+        	android:key="voicemail_pref"
+        	android:title="@string/voicemail" />
+        	
+        <CheckBoxPreference
+            android:key="intlcalling_pref"
+            android:title="@string/intlcalling" />
+                    
+		<CheckBoxPreference
+            android:key="callerid_pref"
+            android:title="@string/callerid" />
+        
+        <CheckBoxPreference
+            android:key="dnd_pref"
+            android:title="@string/donotdisturb" />    
+
+		<ListPreference
+			android:key="bwsaver_pref"
+			android:title="@string/bwsaver"
+			android:summary="@string/bwsaver_summary"
+			android:entries="@array/bwsaver_preference"
+			android:entryValues="@array/bwsaver_values_preference"
+			android:dialogTitle="Choose your call quality" />            
+
+    </PreferenceCategory>
+	
+</PreferenceScreen> 

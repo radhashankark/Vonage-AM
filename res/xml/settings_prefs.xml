@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PreferenceScreen
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:key="general_settings">
+        
+	<PreferenceCategory
+			android:title="General Settings" >
+			
+		<CheckBoxPreference
+            android:key="autointlcalls_pref"
+            android:title="@string/autointlcalls" />
+
+		<CheckBoxPreference
+            android:key="calldelay_pref"
+            android:title="@string/delaycall" />
+            
+		<CheckBoxPreference
+            android:key="revertsettings_pref"
+            android:title="@string/revertbackcf" />
+		
+	</PreferenceCategory>
+		
+	<PreferenceCategory
+			android:title="Login Settings" >
+
+		<ListPreference
+            android:key="autologinuser_pref"
+            android:title="@string/autologincred"
+            android:entries="@array/autologin_entries"
+			android:entryValues="@array/autologin_values" />
+            
+        <Preference
+            android:key="adduser_pref"
+            android:title="@string/adduser"
+            android:summary="@string/addusersummary" />
+            
+        <Preference
+            android:key="switchaccount_pref"
+            android:title="@string/switchaccount"
+            android:summary="@string/switchaccountsummary" />
+            
+        <Preference
+            android:key="deletecreds_pref"
+            android:title="@string/deletecreds"
+            android:summary="@string/deletecredssummary" />
+		
+	</PreferenceCategory>
+	
+</PreferenceScreen>
