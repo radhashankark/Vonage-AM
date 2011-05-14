@@ -5,8 +5,8 @@
     <string name="app_title">Vonage AM Options</string>
 
 <!-- Version Info Strings -->
-	<string name="versionCode">14</string>
-	<string name="versionName">0.9.3</string>
+	<string name="versionCode">15</string>
+	<string name="versionName">0.9.4</string>
 
 <!-- Title Strings -->
 	<string name="options_title">Vonage AM - Options</string>
